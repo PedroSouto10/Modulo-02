@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lugrasimo&display=swap');
+* {
+    /*height: 100%;*/
+    background-attachment: fixed;
+}
+
+body{
+    color: #8d6534;
+    background-image: linear-gradient(to right, #051326,#041E40);
+    font-family: "Lugrasimo";
+}
+
+main{
+    background-color: #A6A6A6;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #73662693;
+    width: 560px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #736626;
+}
+
+h2{
+    color: #051326;
+    
+}
+
+p{
+    text-align: justify;
+    font-family: "Great Vibes";
+    font-size: 20px;
+}

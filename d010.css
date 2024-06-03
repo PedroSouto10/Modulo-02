@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(Fonts/fontes/idroid.otf) format('opentype');
+}
+
+*{
+    background-attachment: fixed;
+}
+
+body{
+    background-color: rgb(169, 231, 168);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: green;
+    padding: 20px;
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 40px;
+    margin: 0px 10px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+nav{
+    background-color: green;
+    padding: 10px 15px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(238, 255, 237);
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 15px;
+    margin: 0px 40px;
+}
+
+#mascote > article > h1{
+    font-family: "idroid";
+    font-size: 30px;
+    text-align: left;
+    color: green;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+article > h2{
+    font-family: "idroid";
+    font-size: 25px;
+    text-align: left;
+    background-color: rgba(87, 168, 87, 0.55);
+    padding: 2px;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(3, 186, 3);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+}
+
+#video {
+    background-color: green;
+}
+
+iframe{ 
+    display: block;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#extras > article > h4{ 
+    color: white;
+    background-color: rgb(50, 117, 50);
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding: 10px;
+}   
+
+#extras > article > p{
+    color: white;
+    background-color: rgb(126, 184, 126);
+    margin: 0 5px;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+
+ul{
+    text-align: left;
+    color: white;
+    background-color: rgb(126, 184, 126);
+
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.especial::before{
+    content: "✓";
+    color: gold;
+}
+
+#ultimo{
+    color: white;
+    background-color: rgb(126, 184, 126);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 2px;
+}
