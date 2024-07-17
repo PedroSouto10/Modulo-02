@@ -1,9 +1,65 @@
 @charset "UTF-8";
 
+body{
+    background-color: red;
+    margin: auto;
+}
+
 header{
     background-color: black;
     color: white;
-    font-size: 3em;
     font-weight: bolder;
     text-align: center;
+    padding: 5px;
 }
+
+header > h1{
+    font-size: 5em;
+    color: white;
+}
+header > p{
+    font-size: 2em;
+}
+
+header > p > a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{ 
+    background-color: white;
+    padding: 30px;
+}
+
+
+main > article > h1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+#foto{
+    background: black url('imagens/background001.jpg') center top no-repeat fixed;
+    background-size: cover;
+    color: white;
+    margin: -30px;
+    padding: 90px;
+}
+
+#container{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.535);
+    color: white;
+    width: 500px;
+
+}
+
+
+
